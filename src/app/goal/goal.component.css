@@ -1,0 +1,13 @@
+:host {
+display: inline-block;
+border: 1px solid black;
+border-radius: 5px 5px 0 0;
+padding: 20px;
+margin: 30px;
+text-align: center;
+}
+
+:host(.active){
+border: 3px solid darkred;
+padding: 18px;
+}
