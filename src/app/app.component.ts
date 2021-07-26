@@ -7,9 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-training-project';
-  courseGoals = [
-    { title: 'Master Angular Styling', isActiveGoal: true },
-    { title: 'Understnd Angular Animation', isActiveGoal: false },
-    { title: 'Master Angular Animation', isActiveGoal: false },
-  ];
 }
