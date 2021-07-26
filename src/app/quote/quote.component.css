@@ -16,3 +16,13 @@ h1{
     border: 1px solid #ccc;
     color: #ccc;
 }
+
+
+/* /deep/ is same as >>> */
+/*:host-context(.boring #very-boring) /deep/ h1{
+    color: #ccc;
+}*/
+
+:host-context(.boring #very-boring) >>> h1{
+    color: #ccc;
+}
